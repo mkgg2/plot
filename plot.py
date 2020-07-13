@@ -3,7 +3,7 @@ from scipy.sparse import coo_matrix
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-img=Image.open('pote2.jpg')
+img=Image.open('image.jpg')
 
 r,g,b=img.split()
 rr=np.array(r)
