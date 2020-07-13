@@ -14,7 +14,6 @@ col1=(rr>180)&(gg<180)&(bb<180)
 col1=col1.astype(np.int)
 cc1=coo_matrix(col1)
 
-col2=(rr<70)&(gg>80)&(bb<70)
 col2=(rr<150)&(gg>rr)&(bb<150)&(gg>bb)
 col2=col2.astype(np.int)
 cc2=coo_matrix(col2)
